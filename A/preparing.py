@@ -1,0 +1,5 @@
+fout = open("index.h", "w")
+print("int multiply(int first, int second) {", file = fout)
+print("    return first * second;", file = fout)
+print("}", file = fout)
+fout.close()
